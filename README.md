@@ -39,21 +39,19 @@ The system features a modern, responsive web interface that allows users to uplo
 
 The project follows a modular architecture:
 
-```mermaid
+
 graph TD
     User[User / Web Browser] <-->|HTTP Requests| Flask[Flask Backend Server]
-    
     subgraph "Backend Core"
         Flask <-->|Manage Data| DB[(SQLite Database)]
         Flask -->|Image| CV[CV Module (DenseNet121)]
         Flask -->|Context| NLP[NLP Module (Flan-T5)]
-        
         CV -->|Predictions| NLP
         CV -->|Structured Findings| Flask
         NLP -->|Generated Report| Flask
         NLP -->|QA Answers| Flask
     end
-```
+    
 
 ## 4. Technical Methodology
 
