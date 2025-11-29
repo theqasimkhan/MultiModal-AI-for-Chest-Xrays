@@ -129,6 +129,8 @@ multimodal-chest-xray-ai/
 
 <img width="1670" height="857" alt="image" src="https://github.com/user-attachments/assets/685dbb1d-bac5-440d-a224-b9cd9c37f5d4" />
 
+<img width="1666" height="844" alt="image" src="https://github.com/user-attachments/assets/2ef6fed0-b6a0-4ddf-b22b-0a8c7e561cea" />
+
 
 ## 🤝 Contributing
 
