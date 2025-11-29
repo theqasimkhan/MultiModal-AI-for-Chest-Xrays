@@ -127,7 +127,8 @@ multimodal-chest-xray-ai/
 
 ## 📸 Screenshots
 
-*Screenshots coming soon*
+<img width="1670" height="857" alt="image" src="https://github.com/user-attachments/assets/685dbb1d-bac5-440d-a224-b9cd9c37f5d4" />
+
 
 ## 🤝 Contributing
 
