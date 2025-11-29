@@ -35,23 +35,7 @@ The system features a modern, responsive web interface that allows users to uplo
 - **Real-time Feedback**: Loading states, scanning animations, and dynamic result rendering.
 - **Dual-View**: Split-screen layout showing the report and the X-ray side-by-side.
 
-## 3. System Architecture
 
-The project follows a modular architecture:
-
-
-graph TD
-    User[User / Web Browser] <-->|HTTP Requests| Flask[Flask Backend Server]
-    subgraph "Backend Core"
-        Flask <-->|Manage Data| DB[(SQLite Database)]
-        Flask -->|Image| CV[CV Module (DenseNet121)]
-        Flask -->|Context| NLP[NLP Module (Flan-T5)]
-        CV -->|Predictions| NLP
-        CV -->|Structured Findings| Flask
-        NLP -->|Generated Report| Flask
-        NLP -->|QA Answers| Flask
-    end
-    
 
 ## 4. Technical Methodology
 
